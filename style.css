@@ -77,3 +77,60 @@ img {
 .card .current-time {
     margin-top: 20px;
 }
+
+/* For smaller phones */
+@media screen and (max-width: 375px) {
+    .card {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    img {
+        height: 120px;
+        width: 100px;
+    }
+
+    .card .short-bio {
+        font-size: 11px;
+    }
+}
+
+/* For larger phones and small tablets */
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    .card {
+        width: 80%;
+        height: auto;
+        margin: 30px auto;
+    }
+
+    .card .short-bio {
+        font-size: 13px;
+        padding: 0 10px;
+    }
+}
+
+/* For tablets and larger screens */
+@media screen and (min-width: 769px) {
+    .card {
+        width: 500px;
+        height: auto;
+        margin: 40px auto;
+        padding: 40px;
+    }
+
+    img {
+        height: 160px;
+        width: 140px;
+    }
+
+    .card .short-bio {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+
+    .card .socials li {
+        padding: 5px 20px;
+    }
+}
