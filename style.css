@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #2F2A62;
+    --secondary: #6B60B9;
+    --accent: #F7DF1E;
+    --grey: #dfdfdf;
+}
+
+body {
+    font-family: "Poppins", serif;
+    background-color: var(--secondary);
+    color: var(--grey);
+}
+
+.card {
+    text-align: center;
+    background-color: var(--primary);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 40px auto;
+    width: 350px;
+    height: 520px;
+    
+    border-bottom: 3px solid var(--accent);
+    border-top: 3px solid var(--accent);
+}
+
+img {
+    height: 140px;
+    width: 120px;
+    border-radius: 25px;
+    border: 2px solid var(--accent);
+}
+
+.card .job-title {
+    margin-top: -10px;
+}
+
+.card .short-bio {
+    font-size: 12px;
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.card .email-address {
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.card .socials {
+    list-style: none;
+    font-size: 13px;
+}
+
+.card .socials li {
+    display: inline;
+    padding: 3px 15px;
+    margin-right: 5px;
+    background-color: var(--secondary);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.card .socials li:hover {
+    background-color: var(--accent);
+    color: var(--primary);
+}
+
+.card .current-time {
+    margin-top: 20px;
+}

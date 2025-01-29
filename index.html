@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card | HNG</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="image/myimage.jpg"
+        alt="Esther Atakere"
+        data-testid="profilePicture"
+      />
+      <h2 class="full-name" data-testid="fullName">Esther Atakere</h2>
+      <h4 class="job-title" data-testid="jobTitle">Front-End Developer</h4>
+      <p class="short-bio" data-testid="shortBio">
+        I am a curious person and I enjoy exploring new ways to tackle problems.
+        Being a computer science graduate coupled with my background in IT
+        career counseling has equipped me with strong problem-solving and
+        communication skills. I aspire to make a great impact in the Web
+        Development industry.
+      </p>
+      <h5 class="location" data-testid="currentLocation">Lagos, Nigeria</h5>
+      <h5 class="email-address" data-testid="emailAddress">
+        enitanatakere@gmail.com
+      </h5>
+      <ul class="socials" data-testid="socialLinks">
+        <li>Linkedin</li>
+        <li>GitHub</li>
+      </ul>
+      <h3
+        class="current-time"
+        id="current-time"
+        data-testid="currentTimeUTC"
+      ></h3>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
